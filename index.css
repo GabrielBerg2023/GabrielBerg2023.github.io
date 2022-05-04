@@ -1,20 +1,20 @@
 
 @font-face {
-    font-family: 'icomoon';
-    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-    font-weight: normal;
-    font-style: normal; }
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 html,body { height: 100%; margin: 0px; padding: 0px;}
 
 body {
 
-    background-color:white;
+  background-color:white;
 
-    color: black;
-    /*font-family: Palatino, serif;*/
-    font-family: 'Titillium Web', "Playfair Display", 'Roboto', 'Quicksand', sans-serif;
+  color: black;
+  /*font-family: Palatino, serif;*/
+  font-family: 'Titillium Web', "Playfair Display", 'Roboto', 'Quicksand', sans-serif;
 
 
     /*Titillium Web', "Geneva", 'Bookman', 'Didot', 'Optima', 'Bookman', 'Work Sans','Montserrat','Lora',"Geneva","Times New Roman", Times, serif;*/
@@ -43,16 +43,16 @@ ol {
 }
 
 .leftbar{
-    font-family: "Playfair Display", 'Quicksand';
-    background-color:#EFF2F7;
-    text-align: center;
-    float: left;
-    width: 265px;
-    height: 100%;
-    overflow: auto;
-    max-height:100%;
-    position: fixed;
-}
+     font-family: "Playfair Display", 'Quicksand';
+     background-color:#EFF2F7;
+     text-align: center;
+     float: left;
+     width: 265px;
+     height: 100%;
+     overflow: auto;
+     max-height:100%;
+     position: fixed;
+ }
 
 .rightbar{
     float: left;
@@ -72,14 +72,14 @@ ol {
 
 .button{
 
-    float: left;
-    font-weight: bold;
-    font-size: 20px;
-    height: 30px;
-    text-align: left;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+  text-align: left;
 
-    width: 33%;
-    margin-bottom: 5%;
+  width: 33%;
+  margin-bottom: 5%;
 }
 
 .title{
@@ -91,7 +91,7 @@ p {
 }
 
 h1 {
-    LINE-HEIGHT:32px;
+  LINE-HEIGHT:32px;
 }
 
 
@@ -105,8 +105,8 @@ h1 {
 }
 
 .bib {
-    color: #3F3F3F;
-    font:76% Verdana,Tahoma,Aria
+  color: #3F3F3F;
+  font:76% Verdana,Tahoma,Aria
 }
 
 
@@ -152,7 +152,7 @@ h1 {
 }
 
 #icon {
-    font-size:18px;
+  font-size:18px;
 }
 .pub_container {
     float: right;
@@ -166,8 +166,8 @@ h1 {
 }
 
 .pub_left {
-    float: left;
-    width: min(23%, 220px);
+     float: left;
+     width: min(23%, 220px);
 
 }
 
@@ -179,8 +179,8 @@ h1 {
     width: 72%;
 }
 .pub_img {
-    -webkit-filter: drop-shadow(2px 2px 2px #222);
-    filter: drop-shadow(2px 2px 2px #222);
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
 }
 
 .course_head {
@@ -204,19 +204,12 @@ h1 {
 
 /*
 @media only screen and (max-width: 1000px) {
-
-
 .leftbar{
      width: 250px;
-
  }
-
 .rightbar{
-
     width: calc(100% - 300px);
     padding-left:300px;
-
-
 .pub_right {
     font-size: 15px;
 }*/
@@ -225,92 +218,92 @@ h1 {
 @media only screen and (max-width: 750px) {
 
 
-    head, body{
-        overflow-x: hidden;
-    }
-    .main{
-        width: 95%;
-        overflow-x: hidden;
-    }
+head, body{
+    overflow-x: hidden;
+}
+.main{
+    width: 95%;
+    overflow-x: hidden;
+}
 
-    .leftbar{
-        font-family: "Playfair Display";
-        background-color:#EFF2F7;
-        text-align: center;
-        float:inherit;
+.leftbar{
+     font-family: "Playfair Display";
+     background-color:#EFF2F7;
+     text-align: center;
+     float:inherit;
 
-        width: 100%;
-        height: 10%;
+     width: 100%;
+     height: 10%;
 
-        overflow: hidden;
-        position: relative;
-    }
+     overflow: hidden;
+     position: relative;
+ }
 
-    .rightbar{
-        overflow-x: hidden;
-    }
+ .rightbar{
+     overflow-x: hidden;
+ }
 
-    .title {
-        float:left;
-        width:50%
-    }
+ .title {
+  float:left;
+  width:50%
+ }
 
-    .links {
-        margin-top: 12%;
-        float:left;
-        width:50%;
-    }
+ .links {
+  margin-top: 12%;
+  float:left;
+  width:50%;
+ }
 
-    .example_a {
-        width:125px;
-        font-size:13px;
+ .example_a {
+    width:125px;
+    font-size:13px;
 
-    }
-    #icon {
-        font-size:17px;
-    }
+  }
+  #icon {
+    font-size:17px;
+  }
 
-    .rightbar{
-        width: 100%;
-        margin-top: 2%;
+.rightbar{
+    width: 100%;
+    margin-top: 2%;
 
-        float: inherit;
-        padding-top: 1%;
+    float: inherit;
+    padding-top: 1%;
 
-        padding-left:0px;
-        margin-top: 10%;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
+    padding-left:0px;
+    margin-top: 10%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
-    .pub_right {
-        font-size: 14px;
-        float: none;
-        width: 98%;
-        padding-bottom: 7%;
-        padding-top: 4%;
-        overflow-x: hidden;
-        padding-left: 2%;
+.pub_right {
+    font-size: 14px;
+    float: none;
+    width: 98%;
+    padding-bottom: 7%;
+    padding-top: 4%;
+    overflow-x: hidden;
+    padding-left: 2%;
 
-    }
+}
 
-    .pub_left {
-        float: none;
-        width: 75%;
+.pub_left {
+     float: none;
+     width: 75%;
 
-    }
+ }
 
-    .course_head {
-        font-size: 17px;
-    }
+.course_head {
+    font-size: 17px;
+}
 
-    .courses {
-        font-size:15px;
-        float: none;
-        width:100%;
-        margin-bottom: 5%;
-    }
+.courses {
+  font-size:15px;
+  float: none;
+  width:100%;
+  margin-bottom: 5%;
+}
 
-    .courses_main {
-        width: 100%
-    }
+.courses_main {
+    width: 100%
+}
